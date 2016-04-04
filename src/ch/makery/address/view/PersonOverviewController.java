@@ -90,7 +90,7 @@ public class PersonOverviewController {
     		cityLabel.setText(person.getCity());
     		birthdayLabel.setText(DateUtil.format(person.getBirthday()));
     	} else {
-    		// Person is null, remove all the text.
+    		//  nao esta dando commit null, remove all the text.
     		firstNameLabel.setText("");
     		lastNameLabel.setText("");
     		streetLabel.setText("");
